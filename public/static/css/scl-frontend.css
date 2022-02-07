@@ -1,0 +1,41 @@
+.header {
+	background-color: #00a2ac;
+	color: #dceeee;
+	grid-area: 1/1/2/3;
+}
+
+.hd--expanded .content__header {
+	background-color: #00a2ac;
+	border-radius: 0 0 100% 100%/0 0 3vw 3vw;
+	color: #cfd6df;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 100%;
+}
+
+.hd--expanded.mn--max .content__header:before,
+.hd--expanded.mn--min .content__header:before {
+	background-color: #00a2ac;
+	content: "";
+	display: block;
+	height: 1.09375rem;
+	margin-left: 0;
+	-webkit-mask-image: radial-gradient(
+		circle at 0 1.09375rem,
+		transparent 0,
+		transparent 1.09375rem,
+		#000 1.09375rem
+	);
+	mask-image: radial-gradient(
+		circle 1.09375rem at 0 1.09375rem,
+		transparent 0,
+		transparent 1.09375rem,
+		#000 1.09375rem
+	);
+	position: relative;
+	top: -0.06125rem;
+	transform: translateX(-1.09375rem);
+	width: 1.155rem;
+	z-index: 10;
+}
