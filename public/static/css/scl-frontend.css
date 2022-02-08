@@ -39,3 +39,19 @@
 	width: 1.155rem;
 	z-index: 10;
 }
+.mainnav__inner .mainnav__menu>.nav-item>.nav-link.active {
+    background-color: #ffab00;
+    border-radius: 0.4375rem;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.header .searchbox .searchbox__input.bg-transparent:focus {
+    background-color: #ffab00!important;
+}
+
+.header__btn:focus, .header__btn:hover {
+    background-color: #ffab00;
+    color: #fff;
+}
