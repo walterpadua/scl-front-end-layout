@@ -1,0 +1,21 @@
+CARDS - Totalizações do Dia
+VERDE - Propostas Aprovadas
+AZUL - Propostas em situações de análise.
+ROXO - Propostas em situações onde a responsabilidade seja da loja.
+LARANJA - Propostas reprovadas.
+----------------------------------
+
+GRÁFICO - Totalização mensal.
+No gráfico deverá ser apresentado todas as propostas cadastradas desde o início do mês vigente, até a data atual. Esta informação poderá aparecer em cor preto.
+	* Gráficos em Barra
+	
+Apresentar também:
+ * Todas as propostas aprovadas.
+ * Todas as propostas reprovadas
+ * Todas as propostas em análise.
+ * Todas as propostas sob responsabilidade da loja.
+ 
+OBS: Seguir o mesmo esquema de cores do card.
+----------------------------------
+
+Criar uma tabela abaixo, com todas as propostas pendentes do lado do lojista.
