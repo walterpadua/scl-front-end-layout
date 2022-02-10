@@ -1,11 +1,10 @@
 .header {
-	background-color: #00a2ac;
-	color: #dceeee;
+	background-color: transparent;
 	grid-area: 1/1/2/3;
 }
 
 .hd--expanded .content__header {
-	background-color: #00a2ac;
+	background-color: transparent;
 	border-radius: 0 0 100% 100%/0 0 3vw 3vw;
 	color: #cfd6df;
 	display: flex;
@@ -16,7 +15,7 @@
 
 .hd--expanded.mn--max .content__header:before,
 .hd--expanded.mn--min .content__header:before {
-	background-color: #00a2ac;
+	background-color: #14908b;
 	content: "";
 	display: block;
 	height: 1.09375rem;
@@ -40,7 +39,7 @@
 	z-index: 10;
 }
 .mainnav__inner .mainnav__menu > .nav-item > .nav-link.active {
-	background-color: #ffab00;
+	background-color: #4faca8;
 	border-radius: 0.4375rem;
 	box-shadow: none;
 	color: #fff;
@@ -48,14 +47,9 @@
 }
 
 .header .searchbox .searchbox__input.bg-transparent:focus {
-	background-color: #fff !important;
+	background-color: transparent !important;
 }
 
-.header__btn:focus,
-.header__btn:hover {
-	background-color: #ffab00;
-	color: #fff;
-}
 
 .feed-scl {
 	width: 100%;
@@ -108,12 +102,12 @@
 }
 
 .header__content .searchbox {
-	background-color: #00a2ac;
+	background-color: transparent;
 }
 
 .searchbox .searchbox__input.bg-transparent {
-	color: white;
-	border: solid 2px white;
+	color: #7a878e;
+	border: solid 2px #7a878e;
 }
 .searchbox.searchbox--hide-btn .searchbox__btn {
 	opacity: 1;

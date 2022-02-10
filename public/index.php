@@ -2,7 +2,112 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.87.0" />
+    <meta name="generator" content="Hugo 0.87.0">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <meta name="description" content="Nifty is a responsive admin dashboard template based on Bootstrap 5 framework. There are a lot of useful components.">
+    <title>Dashboard 1 | Nifty - Admin Template</title>
+
+    <!-- STYLESHEETS -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--- -->
+
+    <!-- Fonts [ OPTIONAL ] -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&amp;family=Ubuntu:wght@400;500;700&amp;display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS [ REQUIRED ] -->
+    <link rel="stylesheet" href="./assets/css/color-schemes/primary-nav/teal/bootstrap.min.css">
+
+    <!-- Nifty CSS [ REQUIRED ] -->
+    <link rel="stylesheet" href="./assets/css/color-schemes/primary-nav/teal/nifty.min.css">
+
+    <!-- Nifty Demo Icons [ OPTIONAL ] -->
+    <link rel="stylesheet" href="./assets/css/demo-purpose/demo-icons.min.css">
+
+    <!-- Demo purpose CSS [ DEMO ] -->
+    <link rel="stylesheet" href="./assets/css/demo-purpose/demo-settings.min.css">
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---
+
+    [ REQUIRED ]
+    You must include this category in your project.
+
+
+    [ OPTIONAL ]
+    This is an optional plugin. You may choose to include it in your project.
+
+
+    [ DEMO ]
+    Used for demonstration purposes only. This category should NOT be included in your project.
+
+
+    [ SAMPLE ]
+    Here's a sample script that explains how to initialize plugins and/or components: This category should NOT be included in your project.
+
+
+    Detailed information and more samples can be found in the documentation.
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--- -->
+    <style id="_dm-customLoadScreen">
+        ._dm-load-scheme-css>._dm-loading-screen {
+            align-items: center;
+            background-color: #fff;
+            color: #2b2c2d;
+            display: flex;
+            flex-direction: column;
+            inset: 0;
+            justify-content: center;
+            position: fixed
+        }
+
+        ._dm-load-scheme-css>._dm-loading-screen:before {
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-name: _dm-spin;
+            animation-timing-function: linear;
+            color: #28292b;
+            content: "⚆";
+            display: block;
+            font-family: Arial;
+            font-size: 5rem;
+            height: 2ex;
+            line-height: 1;
+            opacity: .1;
+            width: 2ex;
+            transform-origin: center center
+        }
+
+        ._dm-load-scheme-css>._dm-loading-screen:after {
+            content: "Please wait while loading . . .";
+            font-family: Poppins, "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.5;
+            margin-top: 2rem
+        }
+
+        ._dm-load-scheme-css>:not(._dm-loading-screen) {
+            opacity: 0;
+            pointer-events: none;
+            visibility: none
+        }
+
+        @keyframes _dm-spin {
+            from {
+                transform: rotate(0)
+            }
+
+            to {
+                transform: rotate(360deg)
+            }
+        }
+    </style>
+</head>
+
+<head>
+
+    <!--<meta name="generator" content="Hugo 0.87.0" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
     <meta name="description" content="Nifty is a responsive admin dashboard template based on Bootstrap 5 framework. There are a lot of useful components.">
@@ -16,6 +121,7 @@
     <link rel="stylesheet" href="./assets/premium/icon-sets/icons/line-icons/premium-line-icons.min.css">
     <link rel="stylesheet" href="./assets/css/demo-purpose/demo-icons.min.css">
     <link rel="stylesheet" href="./assets/css/demo-purpose/demo-settings.min.css">
+    -->
     <link rel="stylesheet" href="./static/css/scl-frontend.min.css">
 </head>
 
