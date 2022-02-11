@@ -1,14 +1,11 @@
     <div class="content__header content__boxed overlapping">
         <div class="content__wrap">
-
-            <!-- Page title and information -->
             <h1 class="page-title mb-2">Dashboard</h1>
-            <h2 class="h5">Bem vindo aos graficos dashboard.</h2>
-            <p>Scroll down to see quick links and overviews of your Server, To do list<br> Order status or get some Help using Nifty.</p>
-            <!-- END : Page title and information -->
-
+            <h2 class="h5">Bem vindo ao Dashboard.</h2>
+            <p>
+                Aqui você pode ver graficos de totalização mensal e semanal<br>
+                ver um resumo das solicitações de crédito aprovadas, em analise, aguardando lojista, reprovadas.</p>
         </div>
-
     </div>
 
     <div class="content__boxed">
