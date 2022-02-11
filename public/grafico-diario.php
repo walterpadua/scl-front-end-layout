@@ -3,7 +3,7 @@
 
             <!-- Page title and information -->
             <h1 class="page-title mb-2">Dashboard</h1>
-            <h2 class="h5">Bem vindo aos Dashboard.</h2>
+            <h2 class="h5">Bem vindo aos graficos dashboard.</h2>
             <p>Scroll down to see quick links and overviews of your Server, To do list<br> Order status or get some Help using Nifty.</p>
             <!-- END : Page title and information -->
 
@@ -194,5 +194,5 @@
 
     <include-script>
         <script src="./assets/vendors/chart.js/chart.min.js" defer></script>
-        <script src="./assets/pages/dashboard-1.js" defer></script>
+        <script src="./static/js/grafico-diario.min.js" defer></script>
     </include-script>
