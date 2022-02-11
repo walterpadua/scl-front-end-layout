@@ -1,12 +1,10 @@
     <div class="content__header content__boxed overlapping">
         <div class="content__wrap">
-
-            <!-- Page title and information -->
             <h1 class="page-title mb-2">Dashboard</h1>
-            <h2 class="h5">Bem vindo aos Dashboard.</h2>
-            <p>Scroll down to see quick links and overviews of your Server, To do list<br> Order status or get some Help using Nifty.</p>
-            <!-- END : Page title and information -->
-
+            <h2 class="h5">Bem vindo ao Dashboard.</h2>
+            <p>
+                Aqui você pode ver graficos de totalização mensal e semanal<br>
+                ver um resumo das solicitações de crédito aprovadas, em analise, aguardando lojista, reprovadas.</p>
         </div>
 
     </div>
@@ -19,7 +17,7 @@
                     <div class="card h-100">
                         <div class="card-header d-flex align-items-center border-0">
                             <div class="me-auto">
-                                <h3 class="h4 m-0">Totalização mensal</h3>
+                                <h3 class="h4 m-0">Solicitações de crédito - totalização mensal</h3>
                             </div>
                             <div class="toolbar-end">
                                 <button type="button" class="btn btn-icon btn-sm btn-hover btn-light" aria-label="Refresh Network Chart">
@@ -171,7 +169,6 @@
                                     <td class="text-center fs-5">
                                         <div class="d-block badge" style="background: purple;">Aguardando loja</div>
                                     </td>
-                                    <td class="text-center">-</td>
                                 </tr>
                                 <tr>
                                     <td><a href="#" class="btn-link">#53431</a></td>
@@ -182,7 +179,6 @@
                                     <td class="text-center fs-5">
                                         <div class="d-block badge" style="background: purple;">Aguardando loja</div>
                                     </td>
-                                    <td class="text-center">-</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -194,5 +190,5 @@
 
     <include-script>
         <script src="./assets/vendors/chart.js/chart.min.js" defer></script>
-        <script src="./assets/pages/dashboard-1.js" defer></script>
+        <script src="./static/js/grafico-diario.js" defer></script>
     </include-script>
